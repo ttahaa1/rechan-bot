@@ -76,7 +76,7 @@ def set_emoji(update, context):
         update.message.reply_text("يرجى تقديم إيموجي. الاستخدام: /set <emoji>")
 
 def main():
-    updater = Updater("7001010995:AAFOT8GWxdm0vxFraHb4oWGf25z2cVeQIyY", use_context=True)
+    updater = Updater("7001010995:AAEUGG_LGPTFhO1mPcc9m7fxwZRABKo-8Xg", use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler('start', start))
